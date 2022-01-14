@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  html:
+    build:
+      context: .
+      dockerfile: Dockerfile.asciidoctor
+    volumes:
+      - ./doc:/workdir
+    command: asciidoctor -n mmd-specification.adoc
+
+  pdf:
+    build:
+      context: .
+      dockerfile: Dockerfile.asciidoctor
+    volumes:
+      - ./doc:/workdir
+    command: asciidoctor-pdf -a pdf-themesdir=./ -a pdf-theme=mmd -n mmd-specification.adoc

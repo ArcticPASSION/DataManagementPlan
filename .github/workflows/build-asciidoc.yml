@@ -1,0 +1,28 @@
+name: build adocs
+
+on:
+  push:
+    branches:
+    - main
+jobs:
+  adoc_build:
+    runs-on: ubuntu-latest
+    name: Asciidoctoring the docs to PDF
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build PDF
+      run: docker-compose -f docker-compose-asciidoctor.yml up
+
+    - name: commit changed files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -f gcw-dm-guidelines.pdf
+        git commit -m "Automatic updated by GitHub Action"
+
+    - name: push code to ${{ github.ref }}
+      run: |
+        remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        git push "${remote_repo}" HEAD:${{ github.ref }} --follow-tags
