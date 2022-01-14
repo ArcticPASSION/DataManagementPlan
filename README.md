@@ -1,7 +1,10 @@
 # README
 
 ## Introduction
-ASCIIDOC representation of deliverable D2.1 Data Management Plan for the EU H2020 project Arctic PASSION. 
+ASCIIDOC representation of deliverable D2.1 Data Management Plan for the EU H2020 project Arctic PASSION. The most recent version of the Data Management Plan is available as:
+
+- [PDF](https://github.com/ArcticPASSION/DataManagementPlan/blob/main/ap-dmp.pdf)
+- [HTML](https://htmlpreview.github.io/?https://github.com/ArcticPASSION/DataManagementPlan/blob/main/ap-dmp.html)
 
 ## License
 This information is licensed under the terms of the Creative Commons Attribution (cc-by-4.0) license.
