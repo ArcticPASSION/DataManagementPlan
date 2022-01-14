@@ -8,9 +8,9 @@
 :toclevels: 7
 :chapter-label:
 :xrefstyle: full
-:revnumber: 0.1
+:revnumber: 0.2
 :revdate: {docdate}
-:revremark: First draft
+:revremark: Draft version
 :bl: pass:[ +]
 :title-page:
 = Deliverable 2.1: Data Management Plan
