@@ -19,7 +19,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add -f gcw-dm-guidelines.pdf
+        git add -f ap-dmp.pdf
         git commit -m "Automatic updated by GitHub Action"
 
     - name: push code to ${{ github.ref }}
