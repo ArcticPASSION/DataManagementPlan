@@ -7,19 +7,20 @@ on:
 jobs:
   adoc_build:
     runs-on: ubuntu-latest
-    name: Asciidoctoring the docs to PDF
+    name: Asciidoctoring the docs to PDF and HTML
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Build PDF
+    - name: Build PDF and HTML
       run: docker-compose -f docker-compose-asciidoctor.yml up
 
-    - name: commit changed files
+    - name: Commit changed files
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -f ap-dmp.pdf
+        git add -f ap-dmp.html
         git commit -m "Automatic updated by GitHub Action"
 
     - name: push code to ${{ github.ref }}
