@@ -39,3 +39,16 @@ footer:
   verso:
     left: 
       content: ' '
+
+title-page:
+  align: center
+  background-image: image:cover/front-page-backdrop.png[]
+  revision:
+    delimeter: ','
+  logo:
+    image: image:cover/ap-logo.png[pdfwidth=400px]
+    align: center
+  title:
+    font-size: 18pt
+  subtitle:
+    font-size: 14pt
