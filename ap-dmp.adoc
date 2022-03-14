@@ -101,7 +101,7 @@ Internally the primary purpose of the data is to serve the needs of the project'
 
 === Making data findable, including provisions for metadata
 Arctic PASSION will use the SAON data portal, accessible through https://saon.met.no/, to serve data consumers with both human and machine interfaces. 
-Human and machine interfaces relies on a data catalogue that is generated using an information mode that is in use for multiple projects and activties. This is the https://htmlpreview.github.io/?https://github.com/metno/mmd/blob/master/doc/mmd-specification.html[MET Norway Metadata Format Specification (MMD)]. 
+Human and machine interfaces relies on a data catalogue that is generated using an information mode that is in use for multiple projects and activities. This is the https://htmlpreview.github.io/?https://github.com/metno/mmd/blob/master/doc/mmd-specification.html[MET Norway Metadata Format Specification (MMD)]. 
 This is developed to be compliant with GCMD DIF and ISO19115 and is widely used for mapping harvested metadata into a unified data model. 
 Mappings to DCAT is in progress. 
 
@@ -150,7 +150,7 @@ As noted in the previous chapter, not all data fits in these formats. These data
 
 When data are documented according to the standards mentioned above, reuse is simplified as standardised tools and services will offer support out of the box. CF-NetCDF and DwC-A is e.g. widely used within many data exchange frameworks.
 
-While CF-NetCDF have been widely used in many communities for a long time, the standard is pretty wide and the degrees of freedom sometimes makes it hard to maintain software support for all options, not least when integrating data across providers. WMO has recognised this and htrough interaction with the CF governance, WMO has included CF-NetCDF as part of the https://public.wmo.int/en/wmo-information-system-wis[WMO Information System] (WIS) governance through a dedicated https://community.wmo.int/governance/commission-membership/commission-observation-infrastructure-and-information-systems-infcom/commission-infrastructure-officers/infcom-management-group/standing-committee-information-management-and-technology-sc-imt/expert-team-data-standards-1[Task Team on CF-NetCDF] which will develop WMO profiles of the CF standard for specific WMO purposes. 
+While CF-NetCDF have been widely used in many communities for a long time, the standard is pretty wide and the degrees of freedom sometimes makes it hard to maintain software support for all options, not least when integrating data across providers. WMO has recognised this and trough interaction with the CF governance, WMO has included CF-NetCDF as part of the https://public.wmo.int/en/wmo-information-system-wis[WMO Information System] (WIS) governance through a dedicated https://community.wmo.int/governance/commission-membership/commission-observation-infrastructure-and-information-systems-infcom/commission-infrastructure-officers/infcom-management-group/standing-committee-information-management-and-technology-sc-imt/expert-team-data-standards-1[Task Team on CF-NetCDF] which will develop WMO profiles of the CF standard for specific WMO purposes. 
 
 == Allocation of resources
 Arctic PASSION Work Package 2, Bringing the Arctic Data System to action, has allocated resources for cataloguing, serving and preserving data within the project period. 
