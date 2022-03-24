@@ -44,7 +44,7 @@ In preparation
 *Dissemination level* +
 PU
 --
-image::illustrations/eu_flag.png[]
+image::illustrations/eu_flag.png[EU_Flag,177,100,float="right"]
 <<<
 
 toc::[]
