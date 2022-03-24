@@ -177,6 +177,8 @@ IMPORTANT: Data within Arctic PASSION will be handled according to the principle
 == Other issues
 None known yet.
 
+== References
+
 [.landscape]
 <<<
 [appendix]
