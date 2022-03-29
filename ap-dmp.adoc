@@ -10,7 +10,7 @@
 :xrefstyle: short
 :revnumber: 0.3
 :revdate: {docdate}
-:revremark: Draft version
+:revremark: First version
 :title-page:
 = Deliverable 2.1: Data Management Plan
 
@@ -39,7 +39,7 @@ Matias Takala (FMI)
 Øystein Godøy (MET)
 
 *Status* +
-In preparation
+Coordinator accepted
 
 *Dissemination level* +
 PU
