@@ -228,43 +228,43 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 |
 
 >|{counter:dataset}
-|
-|
-|
-|
-|
-|
-
->|{counter:dataset}
-|
-|
-|
-|
-|
+|GLOBAL_ANALYSISFORECAST_PHY_CPL_001_015 
+|The GLO-CPL weakly coupled ocean-atmosphere data assimilation and forecast system is used to provide 10 days of 3D global ocean forecasts, at ¼ degree, updated daily. 
+|GLO-METOFFICE-EXETER-UK  / CMEMS
+|Daily
+|From 2015-12-30 to 2022-01-10 
 |
 
 >|{counter:dataset}
-|
-|
-|
-|
-|
-|
-
->|{counter:dataset}
-|
-|
-|
-|
-|
+|GLOBAL_ANALYSIS_FORECAST_PHY_001_024 
+|The Operational Mercator global ocean analysis and forecast system at 1/12 degree is providing 10 days of 3D global ocean forecasts updated daily.
+|GLO-NRT-MERCATOR-TOULOUSE-FR / CMEMS
+|Daily, Monthly
+|From 2019-01-01 to present 
 |
 
 >|{counter:dataset}
+|GLOBAL_MULTIYEAR_PHY_001_030 
+|The GLORYS12V1 product is the CMEMS global ocean eddy-resolving (1/12° horizontal resolution, 50 vertical levels) reanalysis covering the altimetry (1993 onward).
+|GLO-RAN-MERCATOR-TOULOUSE-FR / CMEMS
+|Annually
+|From 1993-01-01 to 2020-05-31 
 |
+
+>|{counter:dataset}
+|GLOBAL_REANALYSIS_PHY_001_026 
+|The new Mercator Ocean (Toulouse, FR) Global Ocean Ensemble Reanalysis: monthly means of Temperature, Salinity, Currents and Ice variables at 1 degree horizontal resolution for 75 vertical levels, starting from 1993 onward.
+|GLO-RAN-MERCATOR-TOULOUSE-FR / CMEMS
+|Annually
+|From 1993-01-01 to 2019-12-15 
 |
-|
-|
-|
+
+>|{counter:dataset}
+|GLOBAL_REANALYSIS_PHY_001_031 
+|The CMEMS Global Ocean Ensemble Reanalysis product at ¼ degree resolution : monthly means of Temperature, Salinity, Currents and Ice variables for 75 vertical levels, starting from 1993 onward.
+|GLO-RAN-MERCATOR-TOULOUSE-FR / CMEMS
+|Annually 
+|From 1993-01-01 to 2019-12-31 
 |
 
 >|{counter:dataset}
