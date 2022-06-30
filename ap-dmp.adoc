@@ -212,19 +212,19 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 |Comment
 
 >|{counter:dataset}
-|ARC MFC PHY NRT system (002_001a) (neXtSIM)
+|ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011  (neXtSIM)
 |The Arctic Sea Ice Analysis and Forecast system uses the neXtSIM stand-alone sea ice model running the Brittle-Bingham-Maxwell sea ice rheology on an adaptive triangular mesh of 10 km average cell length
 |ARC-NERSC-BERGEN-NO / CMEMS
-|daily
+|Daily
 |From 2019-11-01 to present 
 |
 
 >|{counter:dataset}
-|
-|
-|
-|
-|
+| ARCTIC_ANALYSIS_FORECAST_PHYS_002_001_a (TOPAZ4)
+|The operational TOPAZ4 Arctic Ocean system uses the HYCOM model and a 100-member EnKF assimilation scheme. It is run daily to provide 10 days of forecast (average of 10 members) of the 3D physical ocean, including sea ice; data assimilation is performed weekly to provide 7 days of analysis (ensemble average).
+|ARC-METNO-OSLO-NO / CMEMS
+|Daily
+|From 2019-05-04 to present 
 |
 
 >|{counter:dataset}
