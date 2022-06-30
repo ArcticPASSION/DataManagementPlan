@@ -212,31 +212,15 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 |Comment
 
 >|{counter:dataset}
-| ARC MFC PHY NRT system (002_001a)
-| ARC MFC (NeXtSIM)
-| GLO MFC
-| Baltic MFC
-| 
-|
-
->|{counter:dataset}
+|ARC MFC PHY NRT system (002_001a) (neXtSIM)
 |The Arctic Sea Ice Analysis and Forecast system uses the neXtSIM stand-alone sea ice model running the Brittle-Bingham-Maxwell sea ice rheology on an adaptive triangular mesh of 10 km average cell length
-|
-|
-|
-|
-|
-
->|{counter:dataset}
 |ARC-NERSC-BERGEN-NO / CMEMS
-|
-|
-|
-|
-|
-
->|{counter:dataset}
 |daily
+|From 2019-11-01 to present 
+|
+
+>|{counter:dataset}
+|
 |
 |
 |
@@ -244,7 +228,23 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 |
 
 >|{counter:dataset}
-|from 2019-11-01 to present 
+|
+|
+|
+|
+|
+|
+
+>|{counter:dataset}
+|
+|
+|
+|
+|
+|
+
+>|{counter:dataset}
+|
 |
 |
 |
