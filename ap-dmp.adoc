@@ -212,20 +212,20 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 |Comment
 
 >|{counter:dataset}
-|TOPAZ (ARC MC)
-|
-|
-|
-|
-|
+|TOPAZ (ARC MFC)
+|Sea ice concentration and thickness forecast
+|MET Norway, NERSC
+|Daily
+|CMEMS
+|Daily 10 day forecast 
 
 >|{counter:dataset}
-|NeXtSIM (ARC MC)
-|
-|
-|
-|
-|
+|NeXtSIM (ARC MFC)
+|Sea ice concentration and thickness forecast
+|NERSC
+|Daily, Monthly
+|CMEMS
+|1-day hindcast and 9-day forecast
 
 >|{counter:dataset}
 |GLO MFC
