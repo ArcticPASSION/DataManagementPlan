@@ -212,15 +212,7 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 |Comment
 
 >|{counter:dataset}
-|
-|
-|
-|
-|
-|
-
->|{counter:dataset}
-|
+|TOPAZ (ARC MC)
 |
 |
 |
@@ -228,15 +220,7 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 |
 
 >|{counter:dataset}
-|
-|
-|
-|
-|
-|
-
->|{counter:dataset}
-|
+|NeXtSIM (ARC MC)
 |
 |
 |
@@ -244,7 +228,7 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 |
 
 >|{counter:dataset}
-|
+|GLO MFC
 |
 |
 |
@@ -252,7 +236,23 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 |
 
 >|{counter:dataset}
+|Baltic MFC
 |
+|
+|
+|
+|
+
+>|{counter:dataset}
+|EUMETSAT OSI SAF time series
+|
+|
+|
+|
+|
+
+>|{counter:dataset}
+|Baltic OMI (CMEMS)
 |
 |
 |
