@@ -229,19 +229,19 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 
 >|{counter:dataset}
 |GLO MFC
-|
-|
-|
-|
+|Sea ice concentration and thickness forecast
+|Mercator Océan International
+|Daily, Monthly
+|CMEMS
 |
 
 >|{counter:dataset}
 |Baltic MFC
-|
-|
-|
-|
-|
+|Sea ice concentration and thickness forecast
+|SMHI
+|Sub-hourly, Hourly, Daily, Monthly
+|CMEMS
+|6-day forecast
 
 >|{counter:dataset}
 |EUMETSAT OSI SAF time series
