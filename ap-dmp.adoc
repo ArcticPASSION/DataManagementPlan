@@ -245,18 +245,18 @@ Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles
 
 >|{counter:dataset}
 |EUMETSAT OSI SAF time series
-|
-|
-|
-|
+|Sea ice extent/area
+|MET Norway
+|Daily
+|EUMETSAT
 |
 
 >|{counter:dataset}
 |Baltic OMI (CMEMS)
-|
-|
-|
-|
+|Sea ice extent/area
+|Ifremer (FMI/SMHI)
+|Daily
+|CMEMS
 |
 
 >|{counter:dataset}
