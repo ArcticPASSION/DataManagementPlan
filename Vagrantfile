@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 #
-# Use this environment for building HTML and PDF versionis of mmd-specification.
+# Use this environment for building HTML and PDF versions of the document
 #
 # Install the requirements:
 #
@@ -30,5 +30,3 @@ Vagrant.configure("2") do |config|
     docker-compose -f docker-compose.asciidoctor.yml up --build
   SHELL
 end
-
-
