@@ -115,6 +115,12 @@ Human and machine interfaces relies on a data catalogue that is generated using 
 This is developed to be compliant with GCMD DIF and ISO19115 and is widely used for mapping harvested metadata into a unified data model. 
 Mappings to DCAT is in progress. 
 
+The SAON Data Portal doesn't host datasets, but harvest information about datasets from a number of data repositoriesfootnote:[Details to be provided.] and integrates this information in a unified search interface. 
+
+IMPORTANT: Arctic PASSION require that data generated in the project are published in a data centre that allows machine access using standard interfaces and information objects for discovery metadata.
+
+IMPORTANT: Arctic PASSION require that data generated in the project are published with a project tag populated with the text "Arctic PASSION" in both the short and long name for the project.
+
 [[saon-portal]]
 .Screenshot of the SAON Data Portal (for the time being available through https://saon.met.no/) which Arctic PASSION supports the development of.
 image::screenshots/saon-portal.png[]
