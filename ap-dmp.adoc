@@ -119,7 +119,8 @@ The SAON Data Portal doesn't host datasets, but harvest information about datase
 
 IMPORTANT: Arctic PASSION require that data generated in the project are published in a data centre that allows machine access using standard interfaces and information objects for discovery metadata.
 
-IMPORTANT: Arctic PASSION require that data generated in the project are published with a project tag populated with the text "Arctic PASSION" in both the short and long name for the project.
+IMPORTANT: Arctic PASSION require that data generated in the project are published with a project tag populated with the text "Arctic PASSION" in both the short and long name for the project. 
+This is used to group Arctic PASSION datasets in the SAON Data Portal.
 
 [[saon-portal]]
 .Screenshot of the SAON Data Portal (for the time being available through https://saon.met.no/) which Arctic PASSION supports the development of.
