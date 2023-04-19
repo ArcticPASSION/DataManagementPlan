@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Deliverable 2.1: Data Management Plan</h1>
 <div class="details">
 <span id="revnumber">version 0.4,</span>
-<span id="revdate">2023-02-04</span>
+<span id="revdate">2023-04-19</span>
 <br><span id="revremark">First update</span>
 </div>
 </div>
@@ -614,6 +614,33 @@ Human and machine interfaces relies on a data catalogue that is generated using 
 This is developed to be compliant with GCMD DIF and ISO19115 and is widely used for mapping harvested metadata into a unified data model.
 Mappings to DCAT is in progress.</p>
 </div>
+<div class="paragraph">
+<p>The SAON Data Portal doesn&#8217;t host datasets, but harvest information about datasets from a number of data repositories<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup> and integrates this information in a unified search interface.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+Arctic PASSION require that data generated in the project are published in a data centre that allows machine access using standard interfaces and information objects for discovery metadata.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+Arctic PASSION require that data generated in the project are published with a project tag populated with the text "Arctic PASSION" in both the short and long name for the project.
+</td>
+</tr>
+</table>
+</div>
 <div id="saon-portal" class="imageblock">
 <div class="content">
 <img src="screenshots/saon-portal.png" alt="saon portal">
@@ -633,7 +660,7 @@ Although Arctic Council has suspended all <em>official meetings of the Council a
 </table>
 </div>
 <div class="paragraph">
-<p>When data are served using self-describing file formats like NetCDF according to the <a href="https://cfconventions.org">Climate and Forecast Conventions</a> with global attributes according to the <a href="https://wiki.esipfed.org/Attribute_Convention_for_Data_Discovery_1-3">Attribute Convention for Dataset Discovery</a> (ACDD)<sup class="footnote" id="_footnote_adcacdd">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup> and served through OPeNDAP, discovery metadata can be directly generated from the data files.
+<p>When data are served using self-describing file formats like NetCDF according to the <a href="https://cfconventions.org">Climate and Forecast Conventions</a> with global attributes according to the <a href="https://wiki.esipfed.org/Attribute_Convention_for_Data_Discovery_1-3">Attribute Convention for Dataset Discovery</a> (ACDD)<sup class="footnote" id="_footnote_adcacdd">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup> and served through OPeNDAP, discovery metadata can be directly generated from the data files.
 A similar set up is possible to achieve with <a href="http://tools.gbif.org/dwca-assistant/">Darwin Core Archives</a> (DwC-A), which also have metadata embedded.
 However, the procedure for extracting this information is yet not operational in the context of Arctic PASSION.
 The workflow for CF-NetCDF is currently in testing.
@@ -680,7 +707,7 @@ The specific standards that will be promoted by Arctic PASSION include:</p>
 <dl>
 <dt class="hdlist1">CF-NetCDF</dt>
 <dd>
-<p>NetCDF adhering to the <a href="http://cfconventions.org/index.html">Climate and Forecast Conventions</a> is widely used, both in the oceanographic community, in the Earth System Grid Federation, in Copernicus services, by ESA and EUMETSAT for Sentinel data provision and WMO is developing WMO specific profiles of the standard. By adding the <a href="https://adc.met.no/node/4">Attribute Convention for Dataset Discovery</a><sup class="footnoteref">[<a class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup>, discovery level metadata can be embedded in the datasets.</p>
+<p>NetCDF adhering to the <a href="http://cfconventions.org/index.html">Climate and Forecast Conventions</a> is widely used, both in the oceanographic community, in the Earth System Grid Federation, in Copernicus services, by ESA and EUMETSAT for Sentinel data provision and WMO is developing WMO specific profiles of the standard. By adding the <a href="https://adc.met.no/node/4">Attribute Convention for Dataset Discovery</a><sup class="footnoteref">[<a class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup>, discovery level metadata can be embedded in the datasets.</p>
 </dd>
 <dt class="hdlist1">Darwin Core Archive</dt>
 <dd>
@@ -1151,13 +1178,16 @@ Data within Arctic PASSION will be handled according to the principle of "as ope
 <a href="#_footnoteref_2">2</a>. This address will change at some point to the internet domain of SAON
 </div>
 <div class="footnote" id="_footnotedef_3">
-<a href="#_footnoteref_3">3</a>. More detailed information on how to format the ACDD global attributes to ensure the best possible discovery metadata being generated is available at <a href="https://adc.met.no/node/4" class="bare">https://adc.met.no/node/4</a>.
+<a href="#_footnoteref_3">3</a>. Details to be provided.
+</div>
+<div class="footnote" id="_footnotedef_4">
+<a href="#_footnoteref_4">4</a>. More detailed information on how to format the ACDD global attributes to ensure the best possible discovery metadata being generated is available at <a href="https://adc.met.no/node/4" class="bare">https://adc.met.no/node/4</a>.
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
 Version 0.4<br>
-Last updated 2023-02-04 23:55:59 UTC
+Last updated 2023-04-19 10:20:40 UTC
 </div>
 </div>
 </body>
