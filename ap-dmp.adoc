@@ -10,7 +10,7 @@
 :xrefstyle: short
 :revnumber: 0.6
 :revdate: {docdate}
-:revremark: Detailed information on datasets have been added, although not complete, but methodology to continue this work is in place.
+:revremark: Detailed information on datasets added, methodology for updates established
 :title-page:
 = Deliverable 2.1: Data Management Plan
 
@@ -103,6 +103,9 @@ Eventually all datasets should be discoverable through the Arctic PASSION data c
 
 IMPORTANT: <<dataset-table-internal>> is vaguely populated and will be populated in more detail in the subsequent versions of the data management plan following interaction with the data generating work packages (in particular WP 1 and 3) of Arctic PASSION.
 This will be done through replacing <<dataset-table-internal>> with <<dataset-table-internal-detailed>>, but this process relies on interaction with data providers and repeated requests to data providers to provide information.
+
+NOTE: A mechanism for interaction with data producing work packages and data providers has been established, but requires repeated requests to data providers for information. 
+This mechanism has been adopted for usage against the pilot services of Work Package 4 as well.
 
 // What is the expected size of the data? 
 There is currently no estimate for the expected volume of the data. 
