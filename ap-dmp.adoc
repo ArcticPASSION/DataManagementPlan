@@ -123,7 +123,7 @@ NOTE: It is not the intention to use the Data Management Plan as a catalogue ser
 == FAIR data
 
 === Making data findable, including provisions for metadata
-Arctic PASSION will use the SAON data portal (<<saon-portal>>), for the time being accessible through https://saon.met.no/ footnote:[This address will change at some point to the internet domain of SAON], to serve data consumers with both human and machine interfaces. 
+Arctic PASSION will use the SAON data portal (<<saon-portal>>), for the time being accessible through https://data.arcticobserving.org/ footnote:[The service will also respond to the original address of https://saon.met.no/ until further notice.], to serve data consumers with both human and machine interfaces. 
 Human and machine interfaces relies on a data catalogue that is generated using an information mode that is in use for multiple projects and activities. This is the https://htmlpreview.github.io/?https://github.com/metno/mmd/blob/master/doc/mmd-specification.html[MET Norway Metadata Format Specification (MMD)]. 
 This is developed to be compliant with GCMD DIF and ISO19115 and is widely used for mapping harvested metadata into a unified data model. 
 Mappings to DCAT is in progress. 
@@ -136,7 +136,7 @@ IMPORTANT: Arctic PASSION require that data generated in the project are publish
 This is used to group Arctic PASSION datasets in the SAON Data Portal.
 
 [[saon-portal]]
-.Screenshot of the SAON Data Portal (for the time being available through https://saon.met.no/) which Arctic PASSION supports the development of.
+.Screenshot of the SAON Data Portal (for the time being available through https://data.arcticobserving.org/) which Arctic PASSION supports the development of.
 image::screenshots/saon-portal.png[]
 
 NOTE: Although Arctic Council has suspended all _official meetings of the Council and its subsidiary bodies until further notice_, no information is received to suspend operation of the SAON Data Portal. The SAON Data Portal is an in kind contribution from the Norwegian Meteorological Institute. 
@@ -175,7 +175,7 @@ Both CF and DwC-A standards are managed in well defined governance processes and
 
 IMPORTANT: The template for the product manual is to be developed.
 
-IMPORTANT: Guidance on how to use the standards mentioned above will be made available through https://saon.met.no/apguidance. 
+IMPORTANT: Guidance on how to use the standards mentioned above will be made available through https://data.arcticobserving.org/apguidance. 
 
 
 === Making data reuseable
