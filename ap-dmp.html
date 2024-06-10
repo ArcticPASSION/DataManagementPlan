@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.20">
+<meta name="generator" content="Asciidoctor 2.0.23">
 <title>Deliverable 2.1: Data Management Plan</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -140,7 +140,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
@@ -162,6 +162,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
@@ -327,7 +328,7 @@ a.image{text-decoration:none;display:inline-block}
 a.image object{pointer-events:none}
 sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
 sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
 #footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
@@ -438,7 +439,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Deliverable 2.1: Data Management Plan</h1>
 <div class="details">
 <span id="revnumber">version 0.6,</span>
-<span id="revdate">2023-08-24</span>
+<span id="revdate">2024-06-10</span>
 <br><span id="revremark">Detailed information on datasets added, methodology for updates established</span>
 </div>
 </div>
@@ -640,7 +641,7 @@ It is not the intention to use the Data Management Plan as a catalogue service, 
 <div class="sect2">
 <h3 id="_making_data_findable_including_provisions_for_metadata"><a class="anchor" href="#_making_data_findable_including_provisions_for_metadata"></a>2.1. Making data findable, including provisions for metadata</h3>
 <div class="paragraph">
-<p>Arctic PASSION will use the SAON data portal (<a href="#saon-portal">Figure 1</a>), for the time being accessible through <a href="https://saon.met.no/" class="bare">https://saon.met.no/</a> <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup>, to serve data consumers with both human and machine interfaces.
+<p>Arctic PASSION will use the SAON data portal (<a href="#saon-portal">Figure 1</a>), for the time being accessible through <a href="https://data.arcticobserving.org/" class="bare">https://data.arcticobserving.org/</a> <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup>, to serve data consumers with both human and machine interfaces.
 Human and machine interfaces relies on a data catalogue that is generated using an information mode that is in use for multiple projects and activities. This is the <a href="https://htmlpreview.github.io/?https://github.com/metno/mmd/blob/master/doc/mmd-specification.html">MET Norway Metadata Format Specification (MMD)</a>.
 This is developed to be compliant with GCMD DIF and ISO19115 and is widely used for mapping harvested metadata into a unified data model.
 Mappings to DCAT is in progress.</p>
@@ -677,7 +678,7 @@ This is used to group Arctic PASSION datasets in the SAON Data Portal.
 <div class="content">
 <img src="screenshots/saon-portal.png" alt="saon portal">
 </div>
-<div class="title">Figure 1. Screenshot of the SAON Data Portal (for the time being available through <a href="https://saon.met.no/" class="bare">https://saon.met.no/</a>) which Arctic PASSION supports the development of.</div>
+<div class="title">Figure 1. Screenshot of the SAON Data Portal (for the time being available through <a href="https://data.arcticobserving.org/" class="bare">https://data.arcticobserving.org/</a>) which Arctic PASSION supports the development of.</div>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -771,7 +772,7 @@ The template for the product manual is to be developed.
 <div class="title">Important</div>
 </td>
 <td class="content">
-Guidance on how to use the standards mentioned above will be made available through <a href="https://saon.met.no/apguidance" class="bare">https://saon.met.no/apguidance</a>.
+Guidance on how to use the standards mentioned above will be made available through <a href="https://data.arcticobserving.org/apguidance" class="bare">https://data.arcticobserving.org/apguidance</a>.
 </td>
 </tr>
 </table>
@@ -1187,7 +1188,7 @@ How to address this is under evaluation, but the fallback solution is manual reg
 <a href="#_footnoteref_1">1</a>. This could be necessary to establish an Arctic Window of Copernicus or when data are available through third party data centres but not in standardised and interoperable form.
 </div>
 <div class="footnote" id="_footnotedef_2">
-<a href="#_footnoteref_2">2</a>. This address will change at some point to the internet domain of SAON
+<a href="#_footnoteref_2">2</a>. The service will also respond to the original address of <a href="https://saon.met.no/" class="bare">https://saon.met.no/</a> until further notice.
 </div>
 <div class="footnote" id="_footnotedef_3">
 <a href="#_footnoteref_3">3</a>. Details to be provided.
@@ -1199,7 +1200,7 @@ How to address this is under evaluation, but the fallback solution is manual reg
 <div id="footer">
 <div id="footer-text">
 Version 0.6<br>
-Last updated 2023-08-24 21:02:46 UTC
+Last updated 2024-06-10 20:14:20 UTC
 </div>
 </div>
 </body>
