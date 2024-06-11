@@ -1,0 +1,409 @@
+[[dataset-table-internal-detailed]]
+.Overview of datasets Arctic PASSION will generate and initial plans for publication. Some datasets have more information than shown in the table. BBox is bottom left and upper right as minimum longitude/latitude and then maximum longitude/latitude.
+[%header,cols="<2,<3,<,<,<,<,<,<3",]
+|===
+|Title |Description |Status |Principal Investigator |Affiliation |Expected Data Center |Expected publication date |Comments
+
+|Temperature of air, snow, ice and seawater from drifting buoys in the
+Eurasian Basin and Fram Strait |Data from drifting sea ice buoys depoyed
+in the interior Arctic Ocean, allowing for determination of thickness of
+snow cover and sea ice. 
+|In Work 
+|Mats Granskog 
+|Norwegian Polar Institute
+|https://data.npolar.no/home/[NPI/NPDC]
+|2025-06-30 
+|Unprocessed data (temperature of air, snow, ice and seawater) are also made available in near-real time at meereisportal.de
+
+The data set will contain data from multiple buoys deployed at different locations in different years.  Data from individual buoys will be published as soon as they are processed, i.e at different times depending on their deployment date and duration of drift in sea ice. 
+
+
+// Double check with last record from  Tian.
+|High-Resolution Svalbard Calving Front Dataset from 1972-2023 
+|Using a novel deep learning model, we have produced a new high-resolution
+glacier calving front data product for Svalbard from different optical
+and radar satellite sensors between 1972 and 2023. 
+|In Work 
+|Jonathan Bamber 
+|University of Bristol
+|  
+|  
+|Double check that this is not a duplicate of the dataset from Tian Li later.
+
+|Raw data from thermistor string ice mass balance buoy 2021M31 
+|Raw data from thermistor string sea ice mass balance buoy. Raw data, no quality
+control. Data files (csv) are in zip file. Deployment card (pdf) is also
+attached to the data set. 
+|Complete 
+|Mats Granskog 
+|Norwegian Polar Institute 
+|https://data.npolar.no/home/[NPI/NPDC]
+|2022-12-07 
+a|
+https://doi.org/10.21334/npolar.2022.1037bd1e
+
+https://data.meereisportal.de/relaunch/buoy.php?lang=en&active-tab1=method&active-tab2=buoy&singlemap&buoyname=2021M31
+
+Data is published as a collection.
+
+|Data from ice mass balance buoy 2022T95 
+|Ice mass balance buoy 2022T95 deployed near North Pole in summer 2022 
+|Planned 
+|Mats Granskog 
+|Norwegian Polar Institute
+|https://pangaea.de/[AWI/PANGAEA]
+|2023-12-31 
+|https://data.meereisportal.de/relaunch/buoy.php?lang=en&active-tab1=method&active-tab2=buoy&singlemap&buoyname=2022T95
+
+These data are yet not in the data catalogue, but are available online.
+
+Data is published as a single collection (most likely).
+
+|Data from ice mass balance buoy 2022T97 
+|Data from buoy 2022T97 deployed in the western Amundsen basin in summer 2022 |Planned
+|Mats Granskog 
+|Norwegian Polar Institute
+|https://pangaea.de/[AWI/PANGAEA]
+|2023-12-31
+|https://data.meereisportal.de/relaunch/buoy.php?lang=en&active-tab1=method&active-tab2=buoy&singlemap&buoyname=2022T97
+
+These data are yet not in the data catalogue, but are available online.
+
+Data is published as a single collection (most likely).
+
+|Sea ice mass balance from autonomous measurements 
+|Sea ice parameters derived from autonomous measurements. The data set comprises sea ice thickness, snow depth, sea ice temperatures and further derived physical properties from sea ice mass balance buoys. We mainly deployed
+thermistor-string buoys (type SIMBA) on sea ice drifting across the
+Arctic (and Antarctic) ocean. All data may be found already on
+data.meereisportal.de 
+|In Work 
+|Andras Preusser and Marcel Nicolaus 
+|AWI
+|https://pangaea.de/[AWI/PANGAEA]
+|2023-05-09 
+|Find more details here:
+https://data.meereisportal.de/relaunch/buoy.php?lang=en
+
+One data set per buoy plus collections of several buoys, e.g. by expedition. 
+
+|Hydrography and currents from ocean mooring in the Western Amundsen Basin, Arctic Ocean 
+|Time-series of water temperature, salinity and current profiles from ocean mooring in the Western Nansen Basin, Arctic Ocean 
+|In Work 
+|Arild Sundfjord
+|Norwegian Polar Institute 
+|https://data.npolar.no/home/[NPI/NPDC]
+|2024-12-20 
+|Addional data from partner instruments on the same mooring may be added at a later time
+
+The data set will contain all data from different instruments located on the same mooring for the full two-year deployment 
+
+|Hydrography and currents from ocean mooring in the Western Amundsen Basin, Arctic Ocean 
+|Time-series of water temperature, salinity and current profiles from ocean mooring in the Western Amundsen Basin, Arctic Ocean 
+|In Work 
+|Arild Sundfjord 
+|NPI - Norsk Polarinstitutt (NO) |NPI/NPDC -https://data.npolar.no/home/ 
+|2024-12-20 
+|Addional data from partner instruments on the same mooring may be added at a later time
+
+The data set will contain all data from different instruments located on the same mooring for the full two-year deployment 
+
+|pan-Arctic coastal meltwater discharge 
+a| Daily MAR 5.5 km resolution runoff (both ice and tundra) is statistically downscaled (using adaptive local vertical runoff gradients) to 250 m.
+
+The downscaled runoff is integrated for every surface drainage basin (obtained using surface DEMs and hydrological routing tools) in the Arctic (i.e. ice covered regions of the Canadian Arctic, Greenland, Iceland, Svalbard, Russian Arctic)
+
+Outflow points of these drainage basins at the coastlines (and the basins themselves) are provided.
+
+The basin specific daily downscaled runoff data is stored in a relational database and can be obtained by using the basin/outflow ID.
+
+|Complete 
+|Jonathan Bamber 
+|University of Bristol
+|https://theghub.org/[Ghub]
+|2023-12-31 
+|Dataset is complete, publication is in progress (10/05/2023)
+
+Single dataset (relational database + supplementary data) for each included Randolph Glacier Inventory region (RGI3-CanadaN; RGI4-CanadaS; RGI5-Greenland, RGI6-Iceland; RGI7-Svalbard; RGI9-RussiaN)
+
+This dataset is not in the data catalogue and will need metadata to be added through manual input in a webform.
+
+|Atmospheric vertical profiles of temperature and Humidity 
+|Profiles of Atmospheric temperature and Humidity obtained from continuous recording microwave radiometer 
+|In Work 
+|Nuncio Murukesh 
+|NCPOR
+|https://npdc.ncaor.gov.in/[National Polar Data Centre]
+|  
+| 
+
+|Upwelling and downwelling visible radiation measurements of the autonomous ice-tethered OptiCAL 'pp' buoy (LT-ITO) deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise. 
+a| Optical Chain And Logger (OptiCAL) systems capture PAR-like data at 12 logarithmically-spaced levels down to 50 m depth, and, along with positional data, transmit these data hourly via Iridium. 
+The PAR sensors have a wide dynamic range, able to detect PAR from 5x10⁻⁵ µMol s⁻¹ m⁻² to 100 µMol s⁻¹ m⁻² and thereby graph a wide range of light behaviour from winter to summer and from surface to depth. 
+Sampling at the 12 levels is accomplished by resin-containment 'nodes' located along a power and communication cable that hangs vertically from the underside of the surface spar-buoy. 
+The nodes are at nominal depths of 1, 2, 3, 4, 5, 6, 7, 9, 14, 21, 32, and 50m. Each node has six 'PAR' sensors, three detecting downwelling light and three upwelling light. 
+Two of each set of three sensor sets have simple optical filters: one transmitting 'orange' the other 'blue'. 
+The third sensor, being unfiltered, is 'white'. PAR data are archived in CSV files as 'counts' from the sensors, and are in units of millihertz (mHz).
+
+Two ice-tethered observatories (named “pp“ and “qq”) measuring sub - sea-ice Photosynthetic Active Radiation (PAR) were deployed within the Arctic Ocean 2022 cruise.
+|In Work 
+|Jørgen Berge 
+|UiT
+| NIRD (cached at MET/ADC) 
+|  
+|To convert from mHz to the expected SI unit of µmol s-1 m-2 requires a conversion function. 
+
+This work is (as of May 2023) still in preparation, but will be published as "Development and calibration of a high dynamic range and autonomous ocean-light instrument (OptiCAL) to measure sub-surface profiles in ice-covered waters": Bernhard Schartmüller1, Phil Anderson, David McKee, Stacey Connan-McGinty, Tomasz Piotr Kopec, Malin Daase, Geir Johnsen and Jørgen Berge.
+
+The LT-ITO “pp“ was deployed on 2022-07-31, and recorded data hourly to 2022-10-19.
+
+Some data has been received for publication and are integrated in the catalogue.
+
+|Upwelling and downwelling visible radiation measurements of the autonomous ice-tethered OptiCAL ‘qq’ buoy (LT-ITO) deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise. 
+a| Optical Chain And Logger (OptiCAL) systems capture PAR-like data at 12 logarithmically-spaced levels down to 50 m depth, and, along with positional data, transmit these data hourly via Iridium. The PAR sensors have a wide dynamic range, able to detect PAR from 5x10⁻⁵ µMol s⁻¹ m⁻² to 100 µMol s⁻¹ m⁻² and thereby graph a wide range of light behaviour from winter to summer and from surface to depth. Sampling at the 12 levels is accomplished by resin-containment 'nodes' located along a power and communication cable that hangs vertically from the underside of the surface spar-buoy. The nodes are at nominal depths of 1, 2, 3, 4, 5, 6, 7, 9, 14, 21, 32, and 50m. Each node has six 'PAR' sensors, three detecting downwelling light and three upwelling light. Two of each set of three sensor sets have simple optical filters: one transmitting 'orange' the other 'blue'. The third sensor, being unfiltered, is 'white'. PAR data are archived in CSV files as 'counts' from the sensors, and are in units of millihertz (mHz).
+
+To convert from mHz to the expected SI unit of µmol s-1 m-2 requires a conversion function. This work is (as of May 2023) still in preparation, but will be published as "Development and calibration of a high dynamic range and autonomous ocean-light instrument (OptiCAL) to measure sub-surface profiles in ice-covered waters": Bernhard Schartmüller1, Phil Anderson, David McKee, Stacey Connan-McGinty, Tomasz Piotr Kopec, Malin Daase, Geir Johnsen and Jørgen Berge.
+
+Two ice-tethered observatories (named “pp“ and “qq”) measuring sub - sea-ice Photosynthetic Active Radiation (PAR) were deployed within the Arctic Ocean 2022 cruise.
+
+The LT-ITO "qq" was deployed on 2022-07-31, and transmited data hourly since 2022-10-19.
+|In Work 
+|Jørgen Berge 
+|UiT
+|  
+|  
+|Some data is received for publication and are already in the catalogue.
+
+|Data from downward looking Acoustic zooplankton and fish profiler (AZFP) deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise. 
+a| Bioacoustic data from an Acoustic Zooplankton Fish Profiler (AZFP) deployed in Central Arctic Ocean. 
+Raw data from the four AZFP frequencies (38, 125, 200 and 455kHz) are published. 
+This echosounder was deployed on 2022-07-30, data were downloaded retrieved on 2023-01-18, after 193 days of operation.
+
+The AZFP was connected to the surface buoy with a 5 m long umbilical cable and acoustic beam of the echosounder was pointed downward.
+
+
+An independent GPS tracker of the type XEOS Rover was attached to the AZFP and its GPS track is also part of this data set.
+|In Work 
+|Jørgen Berge |UiT
+|  
+| 
+|The ITO is still drifting and collecting data. Last known position (as for 2023-05-11) is 59.9724, -48.6922.
+
+For the AZFP data, the initial and final deployment (.DPL) and configuration (.XML) files are included. these describe the instrument configuration and sampling plan. 
+The bioacoustics data sets (.01A,.01B, ..., .02A,...) are consecutive, divided hourly. 
+The first two digits describe the phase of the sampling program being used when the file was created while the letter B and C are for files generated within a same hour when the process is interrupted, for example, when backing up the data from the echosounder. 
+The file names contain the date and time of each file.
+
+Some data is received, details to be checked.
+
+|Data from an automated weather station (AWS) deployed on drifting sea ice in the "North Pole sea ice" station during Arctic Ocean 2022 cruise.
+|This data set includes meteorological data (air temperature, air relative humidity, atmospheric pressure accompanied with datetime and geographical position) obtained from an automated weather station (AWS-ITO) deployed in Central Arctic Ocean on 2022-07-29 at 89.82N, 26.28W. Data was collected until 2023-01-20 when the last message was delivered from 73.43N, 13.90W. 
+|In Work 
+|Jørgen Berge 
+|UiT
+|  
+|  
+| 
+
+|Temperature and heating induced temperature difference measurements from the sea ice mass balance buoy SIMBA 02-02 deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise.  
+a| Sea ice mass balance buoy measures snow and sea ice thickness (ice growth and loss). The SIMBA-ITO is equipped with a thermistor string about 5 meter long (240 temperature sensors placed at 2cm intervals: thermistors 0 to 239). The instrument is estimating snow and ice thickness by measuring thermal conductivity of the media (the sensor chain is heated daily, and temperature changes are measured after 30 and 120 seconds from heating the sensor chain).
+
+This ITO is also equipped with one in-air temperature sensor, deployed ~1m above the surface (thermistor 240).
+
+In addition a GPS track is a supplementary part of this data set.
+
+The ITO was sending data till late September 2022. After that data packets were arriving only occasionally until February 1st 2023.  Analysis of the diagnostic messages revealed that the underlying problem was in the data transmission (probably due to icing / overshadowing of the antenna).
+|In Work 
+|Jørgen Berge 
+|UiT
+|  
+|  
+|Data is received for publication, but sensors are dead. 
+
+|Temperature and heating induced temperature difference measurements from the sea ice mass balance buoy SIMBA 02-02 deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise.  
+a| Sea ice mass balance buoy measures snow and sea ice thickness (ice growth and loss). The SIMBA-ITO is equipped with a thermistor string about 5 meter long (240 temperature sensors placed at 2cm intervals: thermistors 0 to 239). The instrument is estimating snow and ice thickness by measuring thermal conductivity of the media (the sensor chain is heated daily, and temperature changes are measured after 30 and 120 seconds from heating the sensor chain).
+
+This ITO is also equipped with one in-air temperature sensor, deployed ~1m above the surface (thermistor 240).
+
+In addition a GPS track is a supplementary part of this data set.
+
+After around two weeks of operation temperature measurements stopped coming. Status messages and positioning data were still being received.
+
+Analysis of diagnostic messages indicated that the sensor chain was physically damaged.
+|In Work 
+|Jørgen Berge
+|UiT  
+| 
+|  
+| 
+
+|Terrestrial climate and cryosphere data from Toolik field station 
+a| Parameters added to monitoring through Arctic PASSION funding include:
+
+- Soil moisture
+- Soil temperatures
+- Soil heat flux
+|In Work 
+|Syndonia Bret-Harte
+|INPO - INTERACT 
+|https://www.uaf.edu/toolik/edc/monitoring/abiotic/met-data-query.php 
+|  
+| 
+
+|Terrestrial climate and cryosphere data from Western Arctic Research Center (WARC) 
+a| Parameters added to terrestrial monitoring through Arctic PASSION funding include:
+
+- Air temperature
+- Air humidity
+- Air pressure
+- Short wave incoming and outgoing radiation
+- Long wave incoming and outgoing radiation
+- Net radiation
+- Soil moisture
+- Soil temperature
+|In Work 
+|Erika Hille 
+|INPO - INTERACT 
+|  
+|  
+|Work is ongoing to integrate data through INTERACT data management. 
+
+|Terrestrial climate and cryosphere data from CEN Whapmagoostui-Kuujjuarapik Station, Canada 
+a| Parameters added to terrestrial monitoring through Arctic PASSION funding include:
+
+- Air temperature
+- Air humidity
+- Short wave incoming and outgoing radiation
+- Long Wave incoming and outgoing radiation
+- Wind velocity
+- Wind direction
+- Snow depth
+- Ground/permafrost temperature
+|In Work 
+|Mickael Lemay 
+|INPO - INTERACT
+|  
+|  
+|Work is in progress to integrate data through collaboration with CCADI 
+
+|Terrestrial climate and cryosphere data from Arctic Station, Greenland Denmark 
+a| Parameters added to terrestrial monitoring through Arctic PASSION funding include:
+
+- Air temperature
+- Air humidity
+- Air pressure
+- Short wave incoming and outgoing radiation
+- Long wave incoming and outgoing radiation
+- Precipitation
+- Permafrost/ ground temperature
+|In Work 
+|Morten Rasch 
+|INPO - INTERACT
+|https://data.g-e-m.dk/
+|  
+| The GEM data management system is not integrated in harvesting yet. Work is in progress.
+
+Need to check if data are tagged as Arctic PASSION using the project element.
+
+|Terrestrial climate and cryosphere data from Zackenberg Station, Greenland Denmark 
+a| Parameters added to terrestrial monitoring through Arctic PASSION funding include:
+
+- Permafrost/Ground temperature
+|In Work 
+|Torben R. Christensen
+|INPO - INTERACT
+|https://data.g-e-m.dk/ 
+|  
+| The GEM data management system is not integrated in harvesting yet. Work is in progress.
+
+|Terrestrial climate and cryosphere data from Kevo Station, Finland 
+a| Parameters added to terrestrial monitoring through Arctic PASSION funding include:
+
+- Permafrost/Ground temperature
+
+|In Work 
+|Otso Suominen 
+|INPO - INTERACT
+|  
+|  
+|Work is in progress to integrate data directly through GEM using schema.org served through INTERACT 
+
+|CNR Arctic Station “Dirigibile Italia”, Svalbard, Norway 
+a| Parameters added to terrestrial monitoring through Arctic PASSION funding include:
+
+- Soil moisture
+- Air temperature
+- Air humidity
+- Permafrost/Ground temperature
+- Snow depth
+|In Work 
+|Mauro Mazzola        
+|INPO - INTERACT 
+|https://iadc.cnr.it/cnr/[CNR/IADC]
+|  
+|Data from IADC are actively harvested into the catalogue.
+
+Need to check if data are tagged with Arctic PASSION.
+
+|Terrestrial climate and cryosphere data from Rif field station, Iceland
+a| Parameters added to terrestrial monitoring through Arctic PASSION funding include:
+
+- Permafrost/Ground temperature
+- Snow depth
+- Net radiation
+- Short wave incoming and outgoing radiation
+- Long wave incoming and outgoing radiation
+- Soil heat flux
+|In Work 
+|Pedro Rodrigues 
+|INPO - INTERACT
+|  
+|  
+| 
+
+|Terrestrial climate and cryosphere data from NIBIO Svanhovd research station, Norway 
+a| Parameters added to terrestrial monitoring through Arctic PASSION funding include:
+
+- Permafrost/Ground temperature
+- Incoming and outgoing short wave radiation
+- Incoming and outgoing long wave radiation
+- Net radiation
+- Heat flux
+|In Work 
+|Cornelya Klutsch 
+|INPO - INTERACT – International Network for Terrestrial Research and Monitoring in the Arctic - INPO (SE)
+|  
+|  
+|Data are currently not tagged as Arctic PASSION, some of these are being processed in MET/ADC. 
+
+|Terrestrial climate and cryosphere data from Churchill Northern Studies Centre, Canada 
+a|Parameters added to terrestrial monitoring through Arctic PASSION
+funding include:
+
+- Air temperature
+- Air humidity
+- Short wave incoming and outgoing radiation
+- Long wave incoming and outgoing radiation
+- Wind speed
+- Wind direction
+- Air pressure
+|In Work 
+|Joni Reimer 
+|INPO - INTERACT
+|  
+|  
+| 
+
+////
+Double check that this is not a duplicate of the Bamber dataset listed above.
+////
+|Calving Front Dataset for Marine-Terminating Glaciers in Svalbard 1985-2023
+a|This is a new high-resolution calving front dataset of 149 marine-terminating glaciers in Svalbard, comprising 124919 glacier calving front positions during the period of 1985-2023. This dataset was generated using a novel automated deep learning framework and multiple optical and SAR satellite images from Landsat, Terra-ASTER, Sentinel-2, and Sentinel-1 satellite missions. 
+|Complete
+|Tian Li
+|University of Bristol
+|AWI/PANGAEA
+|
+|
+|This dataset was published in https://zenodo.org/records/10407266[Zenodo] and will need to be integrated in Arctic PASSION data holdings through filling in manually the web form for metadata. Zenodo is not recommended for data publishing.
+
+|===

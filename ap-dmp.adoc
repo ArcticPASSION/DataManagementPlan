@@ -365,7 +365,5 @@ Work is in progress to address these issues and also to map details to the data 
 Some datasets have been published, but not in repositories where discovery metadata can be harvested into the catalogue.
 How to address this is under evaluation, but the fallback solution is manual registration of datasets using a webform (already available, but not deployed).
 
-[[dataset-table-internal-detailed]]
-.Overview of datasets Arctic PASSION will generate and initial plans for publication. Some datasets have more information than shown in the table.
 
-include::arctic_passion_datasets-20230514.adoc[]
+include::ap-datasets.adoc[]
