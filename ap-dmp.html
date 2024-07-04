@@ -439,7 +439,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Deliverable 2.1: Data Management Plan</h1>
 <div class="details">
 <span id="revnumber">version 0.6,</span>
-<span id="revdate">2024-06-10</span>
+<span id="revdate">2024-07-04</span>
 <br><span id="revremark">Detailed information on datasets added, methodology for updates established</span>
 </div>
 </div>
@@ -576,13 +576,10 @@ If specifically needed by one of the pilot services of Arctic PASSION, data may 
 </div>
 <div class="paragraph">
 <p>An overview of the data generated (or used) by the project is available in <a href="#_datasets">Appendix A</a>.
-The tables shown there are continously updated and are used to check availability of datasets through the searchable catalogue.
-<a href="#dataset-table-internal">Table 1</a> shows a very high level overview of the data the project will generate and this will eventually be fully replaced by <a href="#dataset-table-internal-detailed">Overview of datasets Arctic PASSION will generate and initial plans for publication. Some datasets have more information than shown in the table.</a>.
+The tables shown there are continously updated and are used to check availability of datasets through the <a href="https://data.arcticobservation.org/">searchable catalogue</a>.
 The latter is still under development and relies in particular on the interaction with Work Package 1.
 The first table is just a coarse overview based on the Description of Work, while the second is updates submitted by partners during the project.
-<a href="#dataset-table-external">Table 2</a> lists datasets that are already available by external data providers, but that Arctic PASSION is planning to actively use in services.
-Information in <a href="#dataset-table-internal">Table 1</a> is primarily building on existing measurement programmes or extending these to new areas.
-Eventually all datasets should be discoverable through the Arctic PASSION data catalogue.</p>
+<a href="#dataset-table-external">Table 2</a> lists datasets that are already available by external data providers, but that Arctic PASSION is planning to actively use in pilot services.</p>
 </div>
 <div class="admonitionblock important">
 <table>
@@ -592,7 +589,7 @@ Eventually all datasets should be discoverable through the Arctic PASSION data c
 </td>
 <td class="content">
 <a href="#dataset-table-internal">Table 1</a> is vaguely populated and will be populated in more detail in the subsequent versions of the data management plan following interaction with the data generating work packages (in particular WP 1 and 3) of Arctic PASSION.
-This will be done through replacing <a href="#dataset-table-internal">Table 1</a> with <a href="#dataset-table-internal-detailed">Overview of datasets Arctic PASSION will generate and initial plans for publication. Some datasets have more information than shown in the table.</a>, but this process relies on interaction with data providers and repeated requests to data providers to provide information.
+This will be done through replacing <a href="#dataset-table-internal">Table 1</a> with <a href="#dataset-table-internal-detailed">Table 3</a>, but this process relies on interaction with data providers and repeated requests to data providers to provide information.
 </td>
 </tr>
 </table>
@@ -1049,115 +1046,153 @@ Data within Arctic PASSION will be handled according to the principle of "as ope
 </table>
 <div style="page-break-after: always;"></div>
 <table id="dataset-table-external" class="tableblock frame-all grid-all stripes-even stretch">
-<caption class="title">Table 2. Overview of datasets to be actively used by Arctic PASSION services.</caption>
+<caption class="title">Table 2. Overview of datasets to be actively used by Arctic PASSION services. Pilot service numbers are explained below the table.</caption>
 <colgroup>
-<col style="width: 3%;">
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
+<col style="width: 5.8823%;">
+<col style="width: 5.8823%;">
+<col style="width: 17.647%;">
+<col style="width: 23.5294%;">
+<col style="width: 11.7647%;">
+<col style="width: 11.7647%;">
+<col style="width: 23.5296%;">
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">#</th>
-<th class="tableblock halign-left valign-top">Dataset</th>
-<th class="tableblock halign-left valign-top">Description</th>
-<th class="tableblock halign-left valign-top">Responsible</th>
-<th class="tableblock halign-left valign-top">Generated</th>
-<th class="tableblock halign-left valign-top">Published</th>
+<th class="tableblock halign-right valign-top">#</th>
+<th class="tableblock halign-left valign-top">Pilot Service</th>
+<th class="tableblock halign-left valign-top">Title</th>
+<th class="tableblock halign-left valign-top">URL</th>
+<th class="tableblock halign-left valign-top">Source</th>
+<th class="tableblock halign-left valign-top">Method of integration</th>
 <th class="tableblock halign-left valign-top">Comment</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">TOPAZ (ARC MFC)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sea ice concentration and thickness forecast</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MET Norway, NERSC</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">CMEMS</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Daily 1
-Integration of datasets in the catalogue is under evaluation.
-0 day forecast</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PS5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">EEA PM10 timeseries (in situ measurements)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://discomap.eea.europa.eu/map/fme/AirQualityExport.htm" class="bare">https://discomap.eea.europa.eu/map/fme/AirQualityExport.htm</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">EEA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Downloaded dataset - local copy of remote dataset</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">2</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NeXtSIM (ARC MFC)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sea ice concentration and thickness forecast</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NERSC</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Daily, Monthly</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">CMEMS</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1-day hinIntegration of datasets in the catalogue is under evaluation.
-dcast and 9-day forecast</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PS5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FMI PM10 timeseries  (in situ measurements)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://en.ilmatieteenlaitos.fi/download-observations" class="bare">https://en.ilmatieteenlaitos.fi/download-observations</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FMI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Downloaded dataset - local copy of remote dataset</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">3</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">GLO MFC</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sea ice concentration and thickness forecast</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Mercator Océan International</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Daily, Monthly</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">CMEMS</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Integration of datasets in the catalogue is under evaluation.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PS5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PM10 - CAMS European air quality analysis and forecast</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=form" class="bare">https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=form</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CAMS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Downloaded dataset - local copy of remote dataset</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">4</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Baltic MFC</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sea ice concentration and thickness forecast</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">SMHI</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sub-hourly, Hourly, Daily, Monthly</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">CMEMS</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">6-day forecast
-Integration of datasets in the catalogue is under evaluation.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PS5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PM10, wildfires only - CAMS European air quality analysis and forecast</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=form" class="bare">https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=form</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CAMS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Downloaded dataset - local copy of remote dataset</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">5</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">EUMETSAT OSI SAF time series</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sea ice extent/area</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MET Norway</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">EUMETSAT</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Integration of datasets in the catalogue is in progress.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PS5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Wildfire flux of total particulate matter - CAMS global biomass burning emissions based on fire radiative power</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-fire-emissions-gfas?tab=overview" class="bare">https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-fire-emissions-gfas?tab=overview</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CAMS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Downloaded dataset - local copy of remote dataset</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-right valign-top"><p class="tableblock">6</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Baltic OMI (CMEMS)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sea ice extent/area</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ifremer (FMI/SMHI)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">CMEMS</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-right valign-top"><p class="tableblock">7</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Surface weather stations</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Information from operational surface weather stations where data is exchanged through programmes of WMO</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MET</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Extraction of public available information is in progress</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-right valign-top"><p class="tableblock">8</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vertical profiles of temperature</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Information from operational stations exchanging data through programmes of WMO</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MET</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Extraction of public available information is in progress</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-right valign-top"><p class="tableblock">9</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PS2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pan-Arctic Visualization of Landscape Change (2003-2022)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://doi.pangaea.de/10.1594/PANGAEA.964814" class="bare">https://doi.pangaea.de/10.1594/PANGAEA.964814</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Arctic PASSION</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Direct integration visual representation through e.g. OGC WMS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multispectral Landsat-5 TM, Landsat-7 ETM+, and Landsat-8 OLI imagery.
+This is also a dataset generated for Arctic PASSION and will be listed in tha appropriate table.</p></td>
 </tr>
 </tbody>
 </table>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+PS1
+</td>
+<td class="hdlist2">
+<p>Arctic Service ‘Event Database of CBM Using Oral Histories, Indigenous Knowledge and Local Knowledge’</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+PS2
+</td>
+<td class="hdlist2">
+<p>Pan-Arctic requirements-driven Permafrost Service</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+PS3
+</td>
+<td class="hdlist2">
+<p>State of the Arctic Environment’ service</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+PS4
+</td>
+<td class="hdlist2">
+<p>Integrated Fire Risk Management (INFRA)’ Service</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+PS5
+</td>
+<td class="hdlist2">
+<p>Local Atmospheric Pollutant Forecast’ Service</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+PS6
+</td>
+<td class="hdlist2">
+<p>Improving Safety for Shipping in the Polar Seas’ Service</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+PS7
+</td>
+<td class="hdlist2">
+<p>CBM for Arctic marine climate change, noise pollution &amp; impacts on marine living resources’</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+PS8
+</td>
+<td class="hdlist2">
+<p>Lake Ice Service for Arctic Climate and Safety</p>
+</td>
+</tr>
+</table>
+</div>
 <div style="page-break-after: always;"></div>
 <div class="admonitionblock note">
 <table>
@@ -1166,7 +1201,7 @@ Integration of datasets in the catalogue is under evaluation.</p></td>
 <div class="title">Note</div>
 </td>
 <td class="content">
-<a href="#dataset-table-internal-detailed">Overview of datasets Arctic PASSION will generate and initial plans for publication. Some datasets have more information than shown in the table.</a> is based on a webform that has more information than shown in the table and the information shown is also truncated for some columns as they exceed the height of the page.
+<a href="#dataset-table-internal-detailed">Table 3</a> is based on a webform that has more information than shown in the table and the information shown is also truncated for some columns as they exceed the height of the page.
 The information is processed automatically, thus the table can contain typos and similar.
 Work is in progress to address these issues and also to map details to the data catalogue.
 Some datasets have been published, but not in repositories where discovery metadata can be harvested into the catalogue.
@@ -1175,10 +1210,628 @@ How to address this is under evaluation, but the fallback solution is manual reg
 </tr>
 </table>
 </div>
-<div id="dataset-table-internal-detailed" class="paragraph">
-<div class="title">Overview of datasets Arctic PASSION will generate and initial plans for publication. Some datasets have more information than shown in the table.</div>
-<p>Unresolved directive in ap-dmp.adoc - include::arctic_passion_datasets-20230514.adoc[]</p>
+<table id="dataset-table-internal-detailed" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 3. Overview of datasets Arctic PASSION will generate and initial plans for publication. Some datasets have more information than shown in the table. BBox is bottom left and upper right as minimum longitude/latitude and then maximum longitude/latitude.</caption>
+<colgroup>
+<col style="width: 15.3846%;">
+<col style="width: 23.0769%;">
+<col style="width: 7.6923%;">
+<col style="width: 7.6923%;">
+<col style="width: 7.6923%;">
+<col style="width: 7.6923%;">
+<col style="width: 7.6923%;">
+<col style="width: 23.077%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Title</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Status</th>
+<th class="tableblock halign-left valign-top">Principal Investigator</th>
+<th class="tableblock halign-left valign-top">Affiliation</th>
+<th class="tableblock halign-left valign-top">Expected Data Center</th>
+<th class="tableblock halign-left valign-top">Expected publication date</th>
+<th class="tableblock halign-left valign-top">Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temperature of air, snow, ice and seawater from drifting buoys in the
+Eurasian Basin and Fram Strait</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data from drifting sea ice buoys depoyed
+in the interior Arctic Ocean, allowing for determination of thickness of
+snow cover and sea ice.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mats Granskog</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norwegian Polar Institute</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.npolar.no/home/">NPI/NPDC</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2025-06-30</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Unprocessed data (temperature of air, snow, ice and seawater) are also made available in near-real time at meereisportal.de</p>
+<p class="tableblock">The data set will contain data from multiple buoys deployed at different locations in different years.  Data from individual buoys will be published as soon as they are processed, i.e at different times depending on their deployment date and duration of drift in sea ice.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">High-Resolution Svalbard Calving Front Dataset from 1972-2023</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Using a novel deep learning model, we have produced a new high-resolution
+glacier calving front data product for Svalbard from different optical
+and radar satellite sensors between 1972 and 2023.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jonathan Bamber</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">University of Bristol</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Double check that this is not a duplicate of the dataset from Tian Li later.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Raw data from thermistor string ice mass balance buoy 2021M31</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Raw data from thermistor string sea ice mass balance buoy. Raw data, no quality
+control. Data files (csv) are in zip file. Deployment card (pdf) is also
+attached to the data set.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Complete</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mats Granskog</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norwegian Polar Institute</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.npolar.no/home/">NPI/NPDC</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2022-12-07</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><a href="https://doi.org/10.21334/npolar.2022.1037bd1e" class="bare">https://doi.org/10.21334/npolar.2022.1037bd1e</a></p>
 </div>
+<div class="paragraph">
+<p><a href="https://data.meereisportal.de/relaunch/buoy.php?lang=en&amp;active-tab1=method&amp;active-tab2=buoy&amp;singlemap&amp;buoyname=2021M31" class="bare">https://data.meereisportal.de/relaunch/buoy.php?lang=en&amp;active-tab1=method&amp;active-tab2=buoy&amp;singlemap&amp;buoyname=2021M31</a></p>
+</div>
+<div class="paragraph">
+<p>Data is published as a collection.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data from ice mass balance buoy 2022T95</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ice mass balance buoy 2022T95 deployed near North Pole in summer 2022</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Planned</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mats Granskog</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norwegian Polar Institute</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://pangaea.de/">AWI/PANGAEA</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2023-12-31</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.meereisportal.de/relaunch/buoy.php?lang=en&amp;active-tab1=method&amp;active-tab2=buoy&amp;singlemap&amp;buoyname=2022T95" class="bare">https://data.meereisportal.de/relaunch/buoy.php?lang=en&amp;active-tab1=method&amp;active-tab2=buoy&amp;singlemap&amp;buoyname=2022T95</a></p>
+<p class="tableblock">These data are yet not in the data catalogue, but are available online.</p>
+<p class="tableblock">Data is published as a single collection (most likely).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data from ice mass balance buoy 2022T97</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data from buoy 2022T97 deployed in the western Amundsen basin in summer 2022</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Planned</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mats Granskog</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norwegian Polar Institute</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://pangaea.de/">AWI/PANGAEA</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2023-12-31</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.meereisportal.de/relaunch/buoy.php?lang=en&amp;active-tab1=method&amp;active-tab2=buoy&amp;singlemap&amp;buoyname=2022T97" class="bare">https://data.meereisportal.de/relaunch/buoy.php?lang=en&amp;active-tab1=method&amp;active-tab2=buoy&amp;singlemap&amp;buoyname=2022T97</a></p>
+<p class="tableblock">These data are yet not in the data catalogue, but are available online.</p>
+<p class="tableblock">Data is published as a single collection (most likely).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sea ice mass balance from autonomous measurements</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sea ice parameters derived from autonomous measurements. The data set comprises sea ice thickness, snow depth, sea ice temperatures and further derived physical properties from sea ice mass balance buoys. We mainly deployed
+thermistor-string buoys (type SIMBA) on sea ice drifting across the
+Arctic (and Antarctic) ocean. All data may be found already on
+data.meereisportal.de</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Andras Preusser and Marcel Nicolaus</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AWI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://pangaea.de/">AWI/PANGAEA</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2023-05-09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Find more details here:
+<a href="https://data.meereisportal.de/relaunch/buoy.php?lang=en" class="bare">https://data.meereisportal.de/relaunch/buoy.php?lang=en</a></p>
+<p class="tableblock">One data set per buoy plus collections of several buoys, e.g. by expedition.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Hydrography and currents from ocean mooring in the Western Amundsen Basin, Arctic Ocean</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Time-series of water temperature, salinity and current profiles from ocean mooring in the Western Nansen Basin, Arctic Ocean</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Arild Sundfjord</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Norwegian Polar Institute</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.npolar.no/home/">NPI/NPDC</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2024-12-20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Addional data from partner instruments on the same mooring may be added at a later time</p>
+<p class="tableblock">The data set will contain all data from different instruments located on the same mooring for the full two-year deployment</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Hydrography and currents from ocean mooring in the Western Amundsen Basin, Arctic Ocean</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Time-series of water temperature, salinity and current profiles from ocean mooring in the Western Amundsen Basin, Arctic Ocean</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Arild Sundfjord</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NPI - Norsk Polarinstitutt (NO)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NPI/NPDC -https://data.npolar.no/home/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2024-12-20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Addional data from partner instruments on the same mooring may be added at a later time</p>
+<p class="tableblock">The data set will contain all data from different instruments located on the same mooring for the full two-year deployment</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">pan-Arctic coastal meltwater discharge</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Daily MAR 5.5 km resolution runoff (both ice and tundra) is statistically downscaled (using adaptive local vertical runoff gradients) to 250 m.</p>
+</div>
+<div class="paragraph">
+<p>The downscaled runoff is integrated for every surface drainage basin (obtained using surface DEMs and hydrological routing tools) in the Arctic (i.e. ice covered regions of the Canadian Arctic, Greenland, Iceland, Svalbard, Russian Arctic)</p>
+</div>
+<div class="paragraph">
+<p>Outflow points of these drainage basins at the coastlines (and the basins themselves) are provided.</p>
+</div>
+<div class="paragraph">
+<p>The basin specific daily downscaled runoff data is stored in a relational database and can be obtained by using the basin/outflow ID.</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Complete</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jonathan Bamber</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">University of Bristol</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://theghub.org/">Ghub</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2023-12-31</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dataset is complete, publication is in progress (10/05/2023)</p>
+<p class="tableblock">Single dataset (relational database + supplementary data) for each included Randolph Glacier Inventory region (RGI3-CanadaN; RGI4-CanadaS; RGI5-Greenland, RGI6-Iceland; RGI7-Svalbard; RGI9-RussiaN)</p>
+<p class="tableblock">This dataset is not in the data catalogue and will need metadata to be added through manual input in a webform.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Atmospheric vertical profiles of temperature and Humidity</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Profiles of Atmospheric temperature and Humidity obtained from continuous recording microwave radiometer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nuncio Murukesh</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NCPOR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://npdc.ncaor.gov.in/">National Polar Data Centre</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upwelling and downwelling visible radiation measurements of the autonomous ice-tethered OptiCAL 'pp' buoy (LT-ITO) deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise.</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Optical Chain And Logger (OptiCAL) systems capture PAR-like data at 12 logarithmically-spaced levels down to 50 m depth, and, along with positional data, transmit these data hourly via Iridium.
+The PAR sensors have a wide dynamic range, able to detect PAR from 5x10⁻⁵ µMol s⁻¹ m⁻² to 100 µMol s⁻¹ m⁻² and thereby graph a wide range of light behaviour from winter to summer and from surface to depth.
+Sampling at the 12 levels is accomplished by resin-containment 'nodes' located along a power and communication cable that hangs vertically from the underside of the surface spar-buoy.
+The nodes are at nominal depths of 1, 2, 3, 4, 5, 6, 7, 9, 14, 21, 32, and 50m. Each node has six 'PAR' sensors, three detecting downwelling light and three upwelling light.
+Two of each set of three sensor sets have simple optical filters: one transmitting 'orange' the other 'blue'.
+The third sensor, being unfiltered, is 'white'. PAR data are archived in CSV files as 'counts' from the sensors, and are in units of millihertz (mHz).</p>
+</div>
+<div class="paragraph">
+<p>Two ice-tethered observatories (named “pp“ and “qq”) measuring sub - sea-ice Photosynthetic Active Radiation (PAR) were deployed within the Arctic Ocean 2022 cruise.</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jørgen Berge</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UiT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> NIRD (cached at MET/ADC)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">To convert from mHz to the expected SI unit of µmol s-1 m-2 requires a conversion function.</p>
+<p class="tableblock">This work is (as of May 2023) still in preparation, but will be published as "Development and calibration of a high dynamic range and autonomous ocean-light instrument (OptiCAL) to measure sub-surface profiles in ice-covered waters": Bernhard Schartmüller1, Phil Anderson, David McKee, Stacey Connan-McGinty, Tomasz Piotr Kopec, Malin Daase, Geir Johnsen and Jørgen Berge.</p>
+<p class="tableblock">The LT-ITO “pp“ was deployed on 2022-07-31, and recorded data hourly to 2022-10-19.</p>
+<p class="tableblock">Some data has been received for publication and are integrated in the catalogue.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Upwelling and downwelling visible radiation measurements of the autonomous ice-tethered OptiCAL ‘qq’ buoy (LT-ITO) deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise.</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Optical Chain And Logger (OptiCAL) systems capture PAR-like data at 12 logarithmically-spaced levels down to 50 m depth, and, along with positional data, transmit these data hourly via Iridium. The PAR sensors have a wide dynamic range, able to detect PAR from 5x10⁻⁵ µMol s⁻¹ m⁻² to 100 µMol s⁻¹ m⁻² and thereby graph a wide range of light behaviour from winter to summer and from surface to depth. Sampling at the 12 levels is accomplished by resin-containment 'nodes' located along a power and communication cable that hangs vertically from the underside of the surface spar-buoy. The nodes are at nominal depths of 1, 2, 3, 4, 5, 6, 7, 9, 14, 21, 32, and 50m. Each node has six 'PAR' sensors, three detecting downwelling light and three upwelling light. Two of each set of three sensor sets have simple optical filters: one transmitting 'orange' the other 'blue'. The third sensor, being unfiltered, is 'white'. PAR data are archived in CSV files as 'counts' from the sensors, and are in units of millihertz (mHz).</p>
+</div>
+<div class="paragraph">
+<p>To convert from mHz to the expected SI unit of µmol s-1 m-2 requires a conversion function. This work is (as of May 2023) still in preparation, but will be published as "Development and calibration of a high dynamic range and autonomous ocean-light instrument (OptiCAL) to measure sub-surface profiles in ice-covered waters": Bernhard Schartmüller1, Phil Anderson, David McKee, Stacey Connan-McGinty, Tomasz Piotr Kopec, Malin Daase, Geir Johnsen and Jørgen Berge.</p>
+</div>
+<div class="paragraph">
+<p>Two ice-tethered observatories (named “pp“ and “qq”) measuring sub - sea-ice Photosynthetic Active Radiation (PAR) were deployed within the Arctic Ocean 2022 cruise.</p>
+</div>
+<div class="paragraph">
+<p>The LT-ITO "qq" was deployed on 2022-07-31, and transmited data hourly since 2022-10-19.</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jørgen Berge</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UiT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Some data is received for publication and are already in the catalogue.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data from downward looking Acoustic zooplankton and fish profiler (AZFP) deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise.</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Bioacoustic data from an Acoustic Zooplankton Fish Profiler (AZFP) deployed in Central Arctic Ocean.
+Raw data from the four AZFP frequencies (38, 125, 200 and 455kHz) are published.
+This echosounder was deployed on 2022-07-30, data were downloaded retrieved on 2023-01-18, after 193 days of operation.</p>
+</div>
+<div class="paragraph">
+<p>The AZFP was connected to the surface buoy with a 5 m long umbilical cable and acoustic beam of the echosounder was pointed downward.</p>
+</div>
+<div class="paragraph">
+<p>An independent GPS tracker of the type XEOS Rover was attached to the AZFP and its GPS track is also part of this data set.</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jørgen Berge</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UiT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The ITO is still drifting and collecting data. Last known position (as for 2023-05-11) is 59.9724, -48.6922.</p>
+<p class="tableblock">For the AZFP data, the initial and final deployment (.DPL) and configuration (.XML) files are included. these describe the instrument configuration and sampling plan.
+The bioacoustics data sets (.01A,.01B, &#8230;&#8203;, .02A,&#8230;&#8203;) are consecutive, divided hourly.
+The first two digits describe the phase of the sampling program being used when the file was created while the letter B and C are for files generated within a same hour when the process is interrupted, for example, when backing up the data from the echosounder.
+The file names contain the date and time of each file.</p>
+<p class="tableblock">Some data is received, details to be checked.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data from an automated weather station (AWS) deployed on drifting sea ice in the "North Pole sea ice" station during Arctic Ocean 2022 cruise.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">This data set includes meteorological data (air temperature, air relative humidity, atmospheric pressure accompanied with datetime and geographical position) obtained from an automated weather station (AWS-ITO) deployed in Central Arctic Ocean on 2022-07-29 at 89.82N, 26.28W. Data was collected until 2023-01-20 when the last message was delivered from 73.43N, 13.90W.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jørgen Berge</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UiT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temperature and heating induced temperature difference measurements from the sea ice mass balance buoy SIMBA 02-02 deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise.</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Sea ice mass balance buoy measures snow and sea ice thickness (ice growth and loss). The SIMBA-ITO is equipped with a thermistor string about 5 meter long (240 temperature sensors placed at 2cm intervals: thermistors 0 to 239). The instrument is estimating snow and ice thickness by measuring thermal conductivity of the media (the sensor chain is heated daily, and temperature changes are measured after 30 and 120 seconds from heating the sensor chain).</p>
+</div>
+<div class="paragraph">
+<p>This ITO is also equipped with one in-air temperature sensor, deployed ~1m above the surface (thermistor 240).</p>
+</div>
+<div class="paragraph">
+<p>In addition a GPS track is a supplementary part of this data set.</p>
+</div>
+<div class="paragraph">
+<p>The ITO was sending data till late September 2022. After that data packets were arriving only occasionally until February 1st 2023.  Analysis of the diagnostic messages revealed that the underlying problem was in the data transmission (probably due to icing / overshadowing of the antenna).</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jørgen Berge</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UiT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data is received for publication, but sensors are dead. </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temperature and heating induced temperature difference measurements from the sea ice mass balance buoy SIMBA 02-02 deployed on drifting sea ice in the "North Pole sea ice station" during Arctic Ocean 2022 cruise.</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Sea ice mass balance buoy measures snow and sea ice thickness (ice growth and loss). The SIMBA-ITO is equipped with a thermistor string about 5 meter long (240 temperature sensors placed at 2cm intervals: thermistors 0 to 239). The instrument is estimating snow and ice thickness by measuring thermal conductivity of the media (the sensor chain is heated daily, and temperature changes are measured after 30 and 120 seconds from heating the sensor chain).</p>
+</div>
+<div class="paragraph">
+<p>This ITO is also equipped with one in-air temperature sensor, deployed ~1m above the surface (thermistor 240).</p>
+</div>
+<div class="paragraph">
+<p>In addition a GPS track is a supplementary part of this data set.</p>
+</div>
+<div class="paragraph">
+<p>After around two weeks of operation temperature measurements stopped coming. Status messages and positioning data were still being received.</p>
+</div>
+<div class="paragraph">
+<p>Analysis of diagnostic messages indicated that the sensor chain was physically damaged.</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jørgen Berge</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UiT </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Terrestrial climate and cryosphere data from Toolik field station</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to monitoring through Arctic PASSION funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Soil moisture</p>
+</li>
+<li>
+<p>Soil temperatures</p>
+</li>
+<li>
+<p>Soil heat flux</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Syndonia Bret-Harte</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.uaf.edu/toolik/edc/monitoring/abiotic/met-data-query.php" class="bare">https://www.uaf.edu/toolik/edc/monitoring/abiotic/met-data-query.php</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Terrestrial climate and cryosphere data from Western Arctic Research Center (WARC)</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to terrestrial monitoring through Arctic PASSION funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Air temperature</p>
+</li>
+<li>
+<p>Air humidity</p>
+</li>
+<li>
+<p>Air pressure</p>
+</li>
+<li>
+<p>Short wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Long wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Net radiation</p>
+</li>
+<li>
+<p>Soil moisture</p>
+</li>
+<li>
+<p>Soil temperature</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Erika Hille</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Work is ongoing to integrate data through INTERACT data management. </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Terrestrial climate and cryosphere data from CEN Whapmagoostui-Kuujjuarapik Station, Canada</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to terrestrial monitoring through Arctic PASSION funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Air temperature</p>
+</li>
+<li>
+<p>Air humidity</p>
+</li>
+<li>
+<p>Short wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Long Wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Wind velocity</p>
+</li>
+<li>
+<p>Wind direction</p>
+</li>
+<li>
+<p>Snow depth</p>
+</li>
+<li>
+<p>Ground/permafrost temperature</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mickael Lemay</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Work is in progress to integrate data through collaboration with CCADI </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Terrestrial climate and cryosphere data from Arctic Station, Greenland Denmark</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to terrestrial monitoring through Arctic PASSION funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Air temperature</p>
+</li>
+<li>
+<p>Air humidity</p>
+</li>
+<li>
+<p>Air pressure</p>
+</li>
+<li>
+<p>Short wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Long wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Precipitation</p>
+</li>
+<li>
+<p>Permafrost/ ground temperature</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Morten Rasch</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.g-e-m.dk/" class="bare">https://data.g-e-m.dk/</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> The GEM data management system is not integrated in harvesting yet. Work is in progress.</p>
+<p class="tableblock">Need to check if data are tagged as Arctic PASSION using the project element.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Terrestrial climate and cryosphere data from Zackenberg Station, Greenland Denmark</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to terrestrial monitoring through Arctic PASSION funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Permafrost/Ground temperature</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Torben R. Christensen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://data.g-e-m.dk/" class="bare">https://data.g-e-m.dk/</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> The GEM data management system is not integrated in harvesting yet. Work is in progress.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Terrestrial climate and cryosphere data from Kevo Station, Finland</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to terrestrial monitoring through Arctic PASSION funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Permafrost/Ground temperature</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Otso Suominen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Work is in progress to integrate data directly through GEM using schema.org served through INTERACT </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CNR Arctic Station “Dirigibile Italia”, Svalbard, Norway</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to terrestrial monitoring through Arctic PASSION funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Soil moisture</p>
+</li>
+<li>
+<p>Air temperature</p>
+</li>
+<li>
+<p>Air humidity</p>
+</li>
+<li>
+<p>Permafrost/Ground temperature</p>
+</li>
+<li>
+<p>Snow depth</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mauro Mazzola        </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://iadc.cnr.it/cnr/">CNR/IADC</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data from IADC are actively harvested into the catalogue.</p>
+<p class="tableblock">Need to check if data are tagged with Arctic PASSION.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Terrestrial climate and cryosphere data from Rif field station, Iceland</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to terrestrial monitoring through Arctic PASSION funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Permafrost/Ground temperature</p>
+</li>
+<li>
+<p>Snow depth</p>
+</li>
+<li>
+<p>Net radiation</p>
+</li>
+<li>
+<p>Short wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Long wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Soil heat flux</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pedro Rodrigues</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Terrestrial climate and cryosphere data from NIBIO Svanhovd research station, Norway</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to terrestrial monitoring through Arctic PASSION funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Permafrost/Ground temperature</p>
+</li>
+<li>
+<p>Incoming and outgoing short wave radiation</p>
+</li>
+<li>
+<p>Incoming and outgoing long wave radiation</p>
+</li>
+<li>
+<p>Net radiation</p>
+</li>
+<li>
+<p>Heat flux</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cornelya Klutsch</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT – International Network for Terrestrial Research and Monitoring in the Arctic - INPO (SE)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data are currently not tagged as Arctic PASSION, some of these are being processed in MET/ADC. </p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Terrestrial climate and cryosphere data from Churchill Northern Studies Centre, Canada</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Parameters added to terrestrial monitoring through Arctic PASSION
+funding include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Air temperature</p>
+</li>
+<li>
+<p>Air humidity</p>
+</li>
+<li>
+<p>Short wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Long wave incoming and outgoing radiation</p>
+</li>
+<li>
+<p>Wind speed</p>
+</li>
+<li>
+<p>Wind direction</p>
+</li>
+<li>
+<p>Air pressure</p>
+</li>
+</ul>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Work</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Joni Reimer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INPO - INTERACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"> </p>
+<p class="tableblock">////
+Double check that this is not a duplicate of the Bamber dataset listed above.
+////</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Calving Front Dataset for Marine-Terminating Glaciers in Svalbard 1985-2023</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>This is a new high-resolution calving front dataset of 149 marine-terminating glaciers in Svalbard, comprising 124919 glacier calving front positions during the period of 1985-2023. This dataset was generated using a novel automated deep learning framework and multiple optical and SAR satellite images from Landsat, Terra-ASTER, Sentinel-2, and Sentinel-1 satellite missions.</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Complete</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tian Li</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">University of Bristol</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AWI/PANGAEA</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -1200,7 +1853,7 @@ How to address this is under evaluation, but the fallback solution is manual reg
 <div id="footer">
 <div id="footer-text">
 Version 0.6<br>
-Last updated 2024-06-10 20:14:20 UTC
+Last updated 2024-07-04 12:45:11 UTC
 </div>
 </div>
 </body>
