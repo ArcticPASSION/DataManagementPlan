@@ -1,0 +1,77 @@
+[[dataset-table-external]]
+.Overview of datasets to be actively used by Arctic PASSION services. Pilot service numbers are explained below the table. 
+[%header,cols=">1,<1,<3,<4,<2,<2,<4", stripes="even"]
+|===
+|# |Pilot Service |Title |URL |Source |Method of integration |Comment
+
+>|{counter:dataset-services}
+| PS5
+|EEA PM10 timeseries (in situ measurements) 
+|https://discomap.eea.europa.eu/map/fme/AirQualityExport.htm 
+|EEA 
+|Downloaded dataset - local copy of remote dataset 
+|EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service.  
+
+>|{counter:dataset-services}
+| PS5
+|FMI PM10 timeseries  (in situ measurements) 
+|https://en.ilmatieteenlaitos.fi/download-observations 
+| FMI
+|Downloaded dataset - local copy of remote dataset 
+|EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service. 
+
+>|{counter:dataset-services}
+| PS5
+|PM10 - CAMS European air quality analysis and forecast 
+|https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=form 
+| CAMS
+|Downloaded dataset - local copy of remote dataset 
+|EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service.  
+
+>|{counter:dataset-services}
+| PS5
+|PM10, wildfires only - CAMS European air quality analysis and forecast 
+|https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=form 
+| CAMS
+| Downloaded dataset - local copy of remote dataset
+|EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service.  
+
+>|{counter:dataset-services}
+| PS5
+|Wildfire flux of total particulate matter - CAMS global biomass burning emissions based on fire radiative power 
+|https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-fire-emissions-gfas?tab=overview 
+| CAMS
+| Downloaded dataset - local copy of remote dataset
+|EEA and FMI PM10 data obtained from monitoring stations (for Finland, Norway, Sweden, and Iceland) are used with CAMS PM10 analysis and forecast data as input for our Neural Network model which provides PM10 forecast. CAMS PM10 wildfires only forecast and CAMS Wildfire flux of total particulate matter data are planned to be shown on our PS platform and provided daily to INFRA service.  
+
+>|{counter:dataset-services}
+|PS2 
+|Pan-Arctic Visualization of Landscape Change (2003-2022) 
+|https://doi.pangaea.de/10.1594/PANGAEA.964814 
+|Arctic PASSION
+| Direct integration visual representation through e.g. OGC WMS
+|Multispectral Landsat-5 TM, Landsat-7 ETM+, and Landsat-8 OLI imagery.
+This is also a dataset generated for Arctic PASSION and will be listed in tha appropriate table.
+
+|===
+
+////
+>|{counter:dataset-services}
+|
+| 
+| 
+| 
+| 
+| 
+////
+
+
+[horizontal]
+PS1:: Arctic Service ‘Event Database of CBM Using Oral Histories, Indigenous Knowledge and Local Knowledge’
+PS2:: Pan-Arctic requirements-driven Permafrost Service
+PS3:: State of the Arctic Environment’ service
+PS4:: Integrated Fire Risk Management (INFRA)’ Service
+PS5:: Local Atmospheric Pollutant Forecast’ Service
+PS6:: Improving Safety for Shipping in the Polar Seas’ Service
+PS7:: CBM for Arctic marine climate change, noise pollution & impacts on marine living resources’
+PS8:: Lake Ice Service for Arctic Climate and Safety
