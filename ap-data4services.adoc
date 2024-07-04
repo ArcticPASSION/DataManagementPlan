@@ -53,24 +53,18 @@
 |Multispectral Landsat-5 TM, Landsat-7 ETM+, and Landsat-8 OLI imagery.
 This is also a dataset generated for Arctic PASSION and will be listed in tha appropriate table.
 
-
->|{counter:dataset-services}
-|
-| 
-| 
-| 
-| 
-| 
-
->|{counter:dataset-services}
-|
-| 
-| 
-| 
-| 
-| 
-
 |===
+
+////
+>|{counter:dataset-services}
+|
+| 
+| 
+| 
+| 
+| 
+////
+
 
 [horizontal]
 PS1:: Arctic Service ‘Event Database of CBM Using Oral Histories, Indigenous Knowledge and Local Knowledge’

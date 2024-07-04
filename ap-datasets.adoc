@@ -407,7 +407,8 @@ a|This is a new high-resolution calving front dataset of 149 marine-terminating 
 |AWI/PANGAEA
 |
 |
-|This dataset was published in https://zenodo.org/records/10407266[Zenodo] and will need to be integrated in Arctic PASSION data holdings through filling in manually the web form for metadata. Zenodo is not recommended for data publishing.
+|This dataset was published in https://zenodo.org/records/10407266[Zenodo] and was integrated in the data portal 2023-12-18. 
+Zenodo is not recommended for data publishing.
 
 Double check that this is not a duplicate of the Bamaber dataset covering 1972-2023. 
 
